@@ -1,0 +1,9 @@
+---
+applications:
+  - name: hello-world-cf
+    memory: 512M 
+    instances: 1
+    path: .
+    command: ruby web.rb
+    env:
+      EVENT: 'DevOps Pune'
