@@ -6,4 +6,4 @@ applications:
     path: .
     command: ruby web.rb
     env:
-      EVENT: 'DevOps Pune'
+      EVENT: 'Cloud Foundry Days - NYC'
